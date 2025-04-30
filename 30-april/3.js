@@ -1,8 +1,3 @@
-// Question 3:
-// Write a function that takes an array of objects, 
-// where each object has an id and potentially a parentId. 
-// The function should restructure this array into a nested object where each id becomes a key, 
-// and if it has children (based on parentId), they are nested within a children array.
 
 const objData =[
     { id: 1, name: 'A' },

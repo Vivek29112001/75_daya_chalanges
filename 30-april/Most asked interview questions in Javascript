@@ -1,0 +1,83 @@
+
+ ## Question 1:
+
+Given an array of objects, where each object represents a person with properties like name and age, write a function that returns a new array containing only the names of people who are older than 30.
+
+ ## Question 2:
+
+You have an object where keys are product names and values are their prices. You also have an array of product names that are on sale. Write a function that returns a new object containing only the products that are on sale, with their original prices.
+
+ ## Question 3:
+
+Write a function that takes an array of objects, where each object has an id and potentially a parentId. The function should restructure this array into a nested object where each id becomes a key, and if it has children (based on parentId), they are nested within a children array.
+
+ ## Question 4:
+
+Given two arrays of objects, where each object has an id property, write a function that returns a new array of objects containing only the objects that are present in both input arrays.
+
+ ## Question 5:
+
+You have an array of strings representing log entries. Each log entry contains information like timestamp, user ID, and action performed, separated by spaces. Write a function that processes this array and returns an object where keys are user IDs and values are arrays of actions performed by that user.
+
+
+ ## Question 6:
+
+Write a function that takes an array of objects, where each object has a category property. The function should return an object where the keys are the unique categories and the values are arrays of objects belonging to that category.
+
+ ## Question 7:
+
+You have an array of student objects, each with a name and an array of grades. Write a function that calculates the average grade for each student and returns a new array of objects, where each object has the student's name and their averageGrade.
+
+ ## Question 8:
+
+Given two arrays: one containing user objects with an id and name, and another containing order objects with a userId and orderTotal. Write a function that returns a new array of objects, where each object contains the name of the user and their total order amount (sum of orderTotal for that user).
+
+ ## Question 9:
+
+Write a function that takes an array of strings. Each string contains comma-separated key-value pairs (e.g., "name=Alice,age=30,city=New York"). The function should parse this array and return an array of objects, where each object corresponds to a string and has the key-value pairs as its properties.
+
+ ## Question 10:
+
+You have an array of objects, each representing an item with a name and a quantity. You also have an object representing available discounts, where keys are item names and values are discount percentages (e.g., { apple: 10, banana: 5 }). Write a function that calculates the discounted price for each item and returns a new array of objects with the item's name, quantity, original price (assume a fixed price of $2 per item for simplicity), and the discountedPrice.
+
+
+
+## Question 11:
+
+Write a function that takes an array of objects, where each object has a title and an array of tags. The function should return a new array containing only the unique tags from all the objects.
+
+## Question 12:
+
+You have two objects. The first object represents the current inventory of items with item names as keys and quantities as values. The second object represents a recent order with item names as keys and quantities ordered as values. Write a function that updates the inventory based on the order and returns a new object representing the updated inventory. Assume that all items in the order exist in the inventory.
+
+## Question 13:
+
+Given an array of objects, where each object represents a book with properties like title, author, and year. Write a function that returns an object where the keys are the years and the values are arrays of book titles published in that year.
+
+## Question 14:
+
+Write a function that takes an array of objects, each with an id and a name. The function should return a new object where the keys are the id values and the values are the corresponding name values.
+
+## Question 15:
+
+You have an array of objects, where each object represents a product with a name and an array of variants. Each variant object has a color and a price. Write a function that returns a new array of objects, where each object contains the product name and the average price of all its variants.
+
+## Question 16:
+
+Write a function that takes an array of objects, where each object has a name and an array of scores. The function should return the name of the person with the highest average score.
+
+## Question 17:
+
+You have an object representing a course schedule, where keys are days of the week and values are arrays of class names scheduled for that day. Write a function that transforms this object into an array of objects, where each object has a day and a classes property (the array of class names).
+
+## Question 18:
+
+Given two arrays of objects, where each object has an id and potentially other properties. Write a function that merges these two arrays into a single array of objects. If objects with the same id exist in both arrays, the properties from the second array should overwrite the properties from the first array.
+
+## Question 19:
+
+Write a function that takes an array of strings representing items in a shopping cart (e.g., ["apple", "banana", "apple", "orange", "banana"]). The function should return an object where keys are the item names and values are their counts in the cart.
+
+## Question 20:
+
+You have an array of objects, where each object represents a task with an id, title, and a dependencies array (containing the ids of other tasks that must be completed before this one). Write a function that returns a new array of tasks sorted in a possible order of execution, respecting the dependencies. (Note: This is a more advanced ## Question that touches on graph traversal concepts)

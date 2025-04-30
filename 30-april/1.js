@@ -1,5 +1,3 @@
-// Question:Given an array of objects, where each object represents a person with properties like name and age, 
-// write a function that returns a new array containing only the names of people who are older than 30.
 
 let data =[{
     "name": "John",

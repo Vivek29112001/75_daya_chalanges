@@ -1,8 +1,4 @@
-// Question 2:
-// You have an object where keys are product names and values are their prices. 
-// You also have an array of product names that are on sale.
-// Write a function that returns a new object containing only the products that are on sale,
-//  with their original prices.
+
 
 let data =[
     {
