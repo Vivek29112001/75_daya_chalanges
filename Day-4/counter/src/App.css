@@ -1,0 +1,27 @@
+.app-container {
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f0f0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+.title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+.counter {
+    font-size: .93rem;
+    margin: 20px 0;
+    color: #0078d4;
+}
+button{
+  padding: 10px 20px;
+  background-color: #0078d4;
+  margin: 20px;
+  color: white;
+}
