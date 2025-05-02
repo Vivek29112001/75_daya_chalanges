@@ -1,0 +1,40 @@
+## Question 21:
+Given an array of objects, where each object represents a book with title, author, and an array of reviews (each review having a rating and comment), write a function to calculate the average rating for each book and return a new array of objects with the book title and its average rating.
+## Question 22:
+You have an object representing a social network graph, where keys are user IDs and values are arrays of IDs of users they follow. Write a function to find all users who follow a specific user ID.
+## Question 23:
+Write a function that takes an array of objects, where each object has a name and a role. The function should return an object where keys are roles and values are arrays of names of people in that role.
+## Question 24:
+Given two arrays of objects, where each object has an id and a permissions array (containing permission strings), write a function that returns a new array of objects containing only the objects that have at least one permission in common between the two input arrays.
+## Questions: 25:
+You have an array of strings representing file paths. Write a function that groups these paths by their directory and returns an object where keys are directories and values are arrays of files (filenames, not full paths) in that directory.
+## ## Question 26:
+Write a function that takes an array of objects, where each object represents a product with a name, category, and price. The function should return an object where keys are categories, and values are the most expensive product in that category.
+## Question 27:
+You have an array of objects, each representing a transaction with a userId, type (e.g., 'deposit', 'withdrawal'), and amount. Write a function that calculates the net balance for each user and returns an object where keys are user IDs and values are their net balances.
+## Question 28:
+Given two arrays: one containing product objects with an id, name, and price, and another containing order items with productId and quantity. Write a function that calculates the total revenue for each product and returns an array of objects with product name and total revenue.
+## Question 29:
+Write a function that takes an array of strings, where each string is a comma-separated list of items. The function should return an object where keys are unique items and values are the number of times that item appears in any of the lists.
+## Question 30:
+You have an array of objects, each representing a task with an id, description, priority (e.g., 'high', 'medium', 'low'), and a boolean completed status. Write a function that returns an object where keys are priorities and values are arrays of task descriptions for tasks of that priority that are not completed.
+## Question 31:
+Write a function that takes an array of objects, where each object represents a playlist with a name and an array of song objects (each song having a title and duration). The function should return a new array of objects, where each object contains the playlist name and the total duration of all songs in that playlist (in seconds).
+## Question 32:
+You have two objects. The first object represents a user's profile with properties like name, email, and an array of social media links (each link having a platform and a URL). The second object represents updated profile information. Write a function that merges the updated information into the original profile, replacing existing values and adding new ones, and returns the merged object.
+## Question 33:
+Given an array of objects, where each object represents an article with a title, author, and an array of keywords, write a function that returns an object where keys are unique keywords and values are arrays of article titles that contain that keyword.
+## Question 34:
+Write a function that takes an array of objects, each with an id, name, and a managerId (representing the id of their manager). The function should return a nested object representing the organizational hierarchy, where each manager's id is a key, and the value is an object containing their name and an array of their direct reports (as nested objects).
+## Question 35:
+You have an array of objects, where each object represents a student with a name and a grades object (where keys are subject names and values are grades). Write a function that calculates the GPA for each student and returns a new array of objects, where each object has the student's name and their GPA.
+## Question 36:
+Write a function that takes an array of objects, where each object has a name and an array of attendance records (each record being a date string). The function should return an object where keys are names and values are the number of days the person was present.
+## Question 37:
+You have an object representing a configuration, where keys are setting names and values are either simple values or nested configuration objects. Write a function that flattens this configuration object into a single-level object, where keys are dot-separated paths (e.g., "database.host", "database.port").
+## Question 38:
+Given two arrays of objects, where each object has an id and a set of tags (represented as an array of strings), write a function that finds the intersection of tags between the two arrays and returns a new array of objects containing only the objects that share at least one tag, along with the common tags.
+## Question 39:
+Write a function that takes an array of strings representing log entries. Each log entry contains a timestamp, event type, and a JSON string with event details. The function should parse the JSON string, group the logs by event type, and return an object where keys are event types and values are arrays of parsed event details objects.
+## Question 40:
+You have an array of objects, where each object represents a project with an id, name, and an array of member objects (each member having a userId and role). Write a function that transforms this array into an object where keys are project ids and values are objects containing the project name and an object where keys are user roles and values are arrays of userIds in that role for that project.

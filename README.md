@@ -1,4 +1,4 @@
-# 75 Day Challenge for JavaScript
+# 75 Day Challenge for JavaScript & React
 
 Welcome to the **75 Day JavaScript Challenge**! This challenge is designed to help you master JavaScript concepts, ranging from basics to advanced topics. It's perfect for developers preparing for interviews or looking to enhance their coding skills.
 
