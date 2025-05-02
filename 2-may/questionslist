@@ -1,0 +1,10 @@
+## question 1: Implement a function to flatten a nested array.
+## question 2: Write a function that implements a basic debounce function.
+## question 3: Write a function that implements a basic throttle function.
+## question 4: Write a function to implement a simple cache (memoization).
+## question 5: Write a function that simulates event bubbling.
+## question 6: Write a function that simulates event capturing.
+## question 7: Write a function that implements the Array.prototype.map() method.
+## question 8: Write a function that implements the Array.prototype.filter() method.
+## question 9: Write a function that implements the Array.prototype.reduce() method.
+## question 10: Write a function that performs a shallow copy of an object.
